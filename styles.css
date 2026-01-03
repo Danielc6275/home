@@ -14,65 +14,124 @@ Make sure to include:
 -Maybe Henderson Sans, Railway,  or Authenia textured?
 https://coolors.co/palette/312e56-9d7498-733b3d-383d73-1d101c
 */
-
-/* Color Palette
-Near
-
-CMYK 87 32 69 16
-RGB 7 118 96
-HEX #077660
-PMS 3425 U
-CMYK 38 100 22 2
-RGB 164 35 117
-HEX #A42375
-PMS 221 U
-Mid
-
-CMYK 70 1 56 0
-RGB 65 186 146
-HEX #41BA92
-PMS 339 U
-CMYK 6 97 0 0
-RGB 225 31 143
-HEX #E11F8F
-PMS Rhodamine Red U
-CMYK 1 50 95 0
-RGB 244 146 43
-HEX #F4922B
-PMS 137 U
-CMYK 5 0 94 0
-RGB 252 238 31
-HEX #FCEE1F
-PMS 3965 U
-CMYK 35 0 99 0
-RGB 178 210 54
-HEX #B2D236
-PMS 389 U
-Far
-
-CMYK 16 0 13 0
-RGB 213 236 224
-HEX #D5ECE0
-PMS 573 U
-CMYK 2 12 0 0
-RGB 245 226 239
-HEX #F5E2EF
-PMS 671 U
-CMYK 3 10 16 0
-RGB 246 227 210
-HEX #F6E3D2
-PMS 475 U
-CMYK 3 2 26 0
-RGB 247 240 198
-HEX #F7F0C6
-PMS 600 U
-CMYK 9 0 36 0
-RGB 235 240 182
-HEX #EBF0B6
-PMS 2281 U
-*/
-
 body {
     margin: 0;
     text-align: center;
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    
+}
+
+/*Utility classes*/
+.top-space-remover {
+    margin-top: 0;
+}
+
+.bottom-space-remover {
+    margin-bottom: 0;
+}
+
+.circular {
+    border-radius: 50%;
+    width: 250px;
+    border: 8px solid #A980C2;
+}
+/*Utility classes end*/
+
+.title {
+    background: #B7D8FD;
+    padding: 6px 16px;
+    border-radius: 6px;
+}
+
+#Clermont-hero {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+#Clermont-sidekick {
+    margin-bottom: auto;
+    margin-top: 15px;
+}    
+
+#top3-title {
+    padding-top: 20px;
+}
+
+#Shack {
+    height: 150px;
+}
+
+#minneola {
+    height: 200px;
+}
+
+#Hiawatha {
+    height: 200px;
+}
+
+.Clermont-tower {
+    background-image: url('images/citrus-tower.png');
+    background-size: cover;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.activities {
+    background-color: #DEE6F6;
+}
+
+#top3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    width: 200px;
+    text-align: center;
+    padding-left: 35px;
+}
+
+.tour-guide {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-image: url('images/Florida.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-me {
+    background-color: #BC969D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+    border-radius: 6px;
+    border-bottom: 6px solid #C65E4C;
+}
+
+#me {
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.my-info {
+    padding-left: 20px;
+}
+
+#clermont-experience {
+    width: 200px;
+    font-size: 30px;
 }

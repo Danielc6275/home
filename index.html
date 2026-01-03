@@ -3,24 +3,41 @@
     <head>
         <title>My hometown</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="Clermont-tower">
-        <h1>Welcome to Clermont</h1>
-        <h3>Enjoy a beautiful view of the city high up in the Citrus tower!</h3>
+        <h1 id="Clermont-hero" class="title">Welcome to Clermont</h1>
+        <h3 id="Clermont-sidekick" class="title">Enjoy a beautiful view of the city high up in the Citrus tower!</h3>
         </div>
         <div class="activities">
-            <h2>Top 3 activities in Clermont, Florida</h2>
-            <h4>Enjoy seafood or a burger at the Salt Shack</h4>
-            <h4>Enjoy a nice view of the lake at Minneola!</h4>
-            <h4>Play frisbee at Hiawatha park</h4>
+            <h2 id="top3-title" class="top-space-remover">Top 3 activities in Clermont, Florida</h2>
+            <div id="top3">
+                <div>
+                    <img id="Shack" class="circular" src="images/saltshack.png"/>
+                    <h3>Enjoy seafood or a burger at the Salt Shack</h3>
+                    <p></p>
+                </div>
+                <div>
+                    <img id="minneola" class="circular" src="images/lake-minneola.png"/>
+                    <h3>Enjoy a nice view of the lake at Minneola!</h3>
+                </div>
+                <div>
+                    <img id="Hiawatha" class="circular" src="images/hiawatha-park.png"/>
+                    <h3 class="bottom-space-remover">Play frisbee at Hiawatha park</h3>
+                </div>
+            </div>
         </div>
         <div class="tour-guide">
-            <img />
             <div class="about-me">
-                <h2>Your guide</h2>
-                <p>"I have lived in Clermont for around 16 years, and know some ins and outs</p>
-                <h4>Daniel Cooney</h4>
+                <img id="me" src="images/Daniel2.png"/>
+                <div class="my-info">
+                    <h2>Your guide</h2>
+                    <p id="clermont-experience">"I have lived in Clermont for around 16 years, and know some ins and outs"</p>
+                    <h4 class="bottom-space-remover">Daniel Cooney</h4>
+                </div>
             </div>
         </div>
     </body>
