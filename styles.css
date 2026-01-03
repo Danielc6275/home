@@ -1,0 +1,78 @@
+/*Use: 
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+DARK BLUE: #457B9D
+LIGHT BLUE: #1D3557
+
+Make sure to include: 
+-Classes
+-Flexbox
+-Background-image
+-The color palette
+
+-Maybe Henderson Sans, Railway,  or Authenia textured?
+https://coolors.co/palette/312e56-9d7498-733b3d-383d73-1d101c
+*/
+
+/* Color Palette
+Near
+
+CMYK 87 32 69 16
+RGB 7 118 96
+HEX #077660
+PMS 3425 U
+CMYK 38 100 22 2
+RGB 164 35 117
+HEX #A42375
+PMS 221 U
+Mid
+
+CMYK 70 1 56 0
+RGB 65 186 146
+HEX #41BA92
+PMS 339 U
+CMYK 6 97 0 0
+RGB 225 31 143
+HEX #E11F8F
+PMS Rhodamine Red U
+CMYK 1 50 95 0
+RGB 244 146 43
+HEX #F4922B
+PMS 137 U
+CMYK 5 0 94 0
+RGB 252 238 31
+HEX #FCEE1F
+PMS 3965 U
+CMYK 35 0 99 0
+RGB 178 210 54
+HEX #B2D236
+PMS 389 U
+Far
+
+CMYK 16 0 13 0
+RGB 213 236 224
+HEX #D5ECE0
+PMS 573 U
+CMYK 2 12 0 0
+RGB 245 226 239
+HEX #F5E2EF
+PMS 671 U
+CMYK 3 10 16 0
+RGB 246 227 210
+HEX #F6E3D2
+PMS 475 U
+CMYK 3 2 26 0
+RGB 247 240 198
+HEX #F7F0C6
+PMS 600 U
+CMYK 9 0 36 0
+RGB 235 240 182
+HEX #EBF0B6
+PMS 2281 U
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
